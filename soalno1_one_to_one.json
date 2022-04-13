@@ -1,0 +1,12 @@
+query OneToOne {
+    keterangan {
+      id
+      pelajaran
+      nilai
+      status
+      anggota_one_to_one {
+        id
+        nama
+      }
+    }
+  }

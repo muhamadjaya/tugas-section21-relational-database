@@ -1,0 +1,12 @@
+query OneToMany {
+    anggota {
+      id
+      nama
+      keterangan_one_to_many {
+        id
+        pelajaran
+        nilai
+        status
+      }
+    }
+  }  
